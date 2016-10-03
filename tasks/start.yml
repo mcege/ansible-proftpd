@@ -2,4 +2,4 @@
 ---
 
 - name: Proftpd start
-  service: name=proftpd started=yes
+  service: name=proftpd state=started
