@@ -1,0 +1,5 @@
+# Install sensu
+---
+
+- name: Install proftpd
+  yum: name={{ proftpd_yum_pkg }} state=present

@@ -1,0 +1,5 @@
+# Service.yml
+---
+
+- name: Proftpd chkconfig
+  service: name=proftpd enabled=yes

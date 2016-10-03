@@ -1,0 +1,6 @@
+# Handlers for proftpd role
+
+---
+
+- name: Restart proftpd
+  service: name=proftpd state=restarted

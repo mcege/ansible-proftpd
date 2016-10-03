@@ -1,0 +1,7 @@
+# Configure proftpd.conf
+---
+
+- name: Modify proftpd.conf
+  lineinfile: dest=/etc/proftpd.conf line="DefaultRoot {{ proftpd_user_home_directory }} {{ proftpd_user }}"
+  notify:
+    - restart proftpd
