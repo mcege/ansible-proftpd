@@ -9,3 +9,6 @@
 
 # Enable proftpd to run as service
 - include: service.yml
+
+# Start proftpd
+- include: start.yml
