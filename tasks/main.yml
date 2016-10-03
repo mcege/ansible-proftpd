@@ -1,11 +1,11 @@
 # Main tasks file for proftpd role
 ---
 
-# Install sensu rpm
+# Install proftpd rpm
 - include: install.yml
 
 # Config json files
 - include: config.yml
 
-# Enable sensu-service to run as service
+# Enable proftpd to run as service
 - include: service.yml
