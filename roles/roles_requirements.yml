@@ -1,2 +1,2 @@
-- src: git+https://github.com/mcege/ansible-sensu.git
+- src: git+https://github.com/mcege/ansible-proftpd.git
   name: ansible-proftpd
